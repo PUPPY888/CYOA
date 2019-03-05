@@ -1,0 +1,233 @@
+/*initialize the standard font size 1vw
+unit vw means relative to 1% of the width of the viewport*/
+html{
+	font-size: 1vw;
+}
+
+h1{
+	font-size: 7vw;
+	font-family: pixelated
+
+}
+h2{
+	font-size: 2vw;
+	font-family: pixelated
+}
+
+p {
+	font-size: 2vw;
+	font-family: pixelated
+
+}
+
+/* -- globle style -- */
+
+/*style the element full screen (0px to top, bottom, left, and right)
+and hide the content over this container*/
+.game_wrapper{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+/*make the image cover the whole container and position it center*/
+.full_bg_img{
+	background-size: cover;
+	background-position: center;
+}
+
+/* -- for index.html (vertical layout) -- */
+/*for the first welcome title screen, layout child elements vertically
+and style child elements both horizontally and vertically center*/
+.titleScreen{
+	/*using flex display style*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+
+.title_div{
+	width: 100%;
+	text-align: center;
+	color: black;
+	margin-top: 1vw;
+}
+.arrowbuttonright_div{
+	width: 25%;
+	position: absolute;
+	top:35vw;
+	right:-2vw;
+}
+.arrowbuttonleft_div{
+	width: 25%;
+	top: 35vw;
+	left: 17vw;
+	position: absolute;
+}
+.arrowbuttonleft1_div{
+	width: 25%;
+	top: 31vw;
+	left: -4vw;
+	position: absolute;
+}
+.arrowbuttonright1_div{
+	width: 25%;
+	position: absolute;
+	top:31vw;
+	right:-4vw;
+}
+.text_box{
+
+  	width: 70vw;
+    height: 40vw;
+    background-color: rgb(255,255,255,0.8);
+    border: 2px solid gray;
+    margin-left: 15vw;
+    position: absolute;
+    bottom: 3vw;
+
+}
+
+.button_div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 39.9vw;
+}
+
+
+}
+
+/* -- for question.html (horizental layout) -- */
+
+/*for the side by side question screen, layout child elements horizentally*/
+.side_by_side{
+	display: flex;
+	flex-direction: row;
+}
+
+/*style the half size a element*/
+.half_size_div{
+	width: 50%;
+	height: 100%;
+	margin: 0;
+}
+
+/*style the half img div and different states*/
+.half_img_div{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.half_img_div:hover{
+	box-shadow: inset 0 0 0 1000px rgba(255,231,0,.7);
+}
+.half_img_div:active{
+	box-shadow: inset 0 0 0 10px rgba(255,231,0);
+}
+.text_box2{
+	width: 70vw;
+    height: 15vw;
+    background-color: rgb(255,255,255,0.8);
+    border: 2px solid gray;
+    margin-left: 15vw;
+    position: absolute;
+    bottom: 3vw;
+}
+.bluebutton_div{
+	width: 50%;
+	top: 34vw;
+	left: 35vw;
+	position: absolute;
+}
+
+.redbutton_div{
+	width: 50%;
+	top: 39vw;
+	left: 35vw;
+	position: absolute;
+	
+}
+.character_div{
+	width: 25%;
+	display: flex;
+	margin-top: 20vw;
+	margin-left: 15vw;
+	position: absolute;
+	top:1vw;
+}
+.progressbar_div{
+	width: 25%;
+	display: flex;
+	margin-top: 2vw;
+	margin-left: 65vw;
+	position: absolute;
+	top:1vw;
+}
+.exit_div{
+	width: 25%;
+	display: flex;
+	margin-top: 2.8vw;
+	margin-left: 77vw;
+	position: absolute;
+	color: white;
+	top:1vw;
+}
+.animal_div{
+	width: 25%;
+	display: flex;
+	position: absolute;
+	top:10.2vw;
+	right:5vw;
+}
+.animalforest_div{
+	width: 25%;
+	display: flex;
+	position: absolute;
+	top:5vw;
+	right:25vw;
+}
+.animalvictory_div{
+	width: 25%;
+	display: flex;
+	position: absolute;
+	top:20vw;
+	right:15vw;
+}
+.characterdead_div{
+	width: 25%;
+	top:20vw;
+	left:20vw;
+	position: absolute;
+}
+.tombstone_div{
+	width: 25%;
+	top:20vw;
+	left:15vw;
+	position: absolute;
+}
+.playagain_div{
+	width: 100%;
+	top: 34vw;
+	left:45vw;
+	position: absolute;
+}
+#victoryplay{
+	top:11vw;
+}
+#animalvictory{
+	left: 65vw;
+}
+#textboxwin{
+	top:5vw;
+}
+.win_div{
+	width: 25%;
+	top:30vw;
+	left:55vw;
+	position: absolute;
+}
