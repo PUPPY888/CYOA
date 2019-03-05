@@ -6,17 +6,17 @@ html{
 
 h1{
 	font-size: 7vw;
-	font-family: pixelated
+	font-family: Courier New, Courier, Helvetica
 
 }
 h2{
 	font-size: 2vw;
-	font-family: pixelated
+	font-family: Courier New, Courier, Helvetica
 }
 
 p {
 	font-size: 2vw;
-	font-family: pixelated
+	font-family: Courier New, Courier, Helvetica
 
 }
 
@@ -93,10 +93,11 @@ and style child elements both horizontally and vertically center*/
 }
 
 .button_div{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-top: 39.9vw;
+	width: 25%;
+	position: absolute;
+	top:86.2%;
+	left:47.3%;
+
 }
 
 
@@ -140,15 +141,15 @@ and style child elements both horizontally and vertically center*/
 }
 .bluebutton_div{
 	width: 50%;
-	top: 34vw;
-	left: 35vw;
+	top: 73%;
+	left: 35%;
 	position: absolute;
 }
 
 .redbutton_div{
 	width: 50%;
-	top: 39vw;
-	left: 35vw;
+	top: 82%;
+	left: 35%;
 	position: absolute;
 	
 }
