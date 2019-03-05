@@ -232,3 +232,9 @@ and style child elements both horizontally and vertically center*/
 	left:55vw;
 	position: absolute;
 }
+#buttonmove{
+	left:33vw;
+}
+#buttonmove2{
+	left:30vw;
+}
